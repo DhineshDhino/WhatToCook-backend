@@ -5,7 +5,7 @@ import com.recipe.what2cook.repository.UserRepository;
 import com.recipe.what2cook.entity.UserEntity;
 import com.recipe.what2cook.exception.UserNotFoundException;
 import com.recipe.what2cook.mapper.UserEntityMapperImpl;
-import com.recipe.what2cook.service.UserServiceImpl;
+import com.recipe.what2cook.service.user.UserServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

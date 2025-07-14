@@ -1,4 +1,4 @@
-package com.recipe.what2cook.service;
+package com.recipe.what2cook.service.recipe;
 
 import com.recipe.what2cook.dto.RecipeDTO;
 import com.recipe.what2cook.exception.RecipeNotFoundException;

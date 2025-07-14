@@ -1,4 +1,4 @@
-package com.recipe.what2cook.model;
+package com.recipe.what2cook.model.recipe;
 
 import lombok.*;
 
@@ -10,7 +10,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @Builder
 public class Time implements Serializable {
-    private String cook;
-    private String prep;
-    private String prepToCook;
+    private String actualCook;
+    private String preparation;
+    private String timeBtwPrepAndCook;
 }

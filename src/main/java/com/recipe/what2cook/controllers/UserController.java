@@ -1,7 +1,7 @@
 package com.recipe.what2cook.controllers;
 import com.recipe.what2cook.dto.UserDTO;
 import com.recipe.what2cook.exception.UserNotFoundException;
-import com.recipe.what2cook.service.UserService;
+import com.recipe.what2cook.service.user.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;

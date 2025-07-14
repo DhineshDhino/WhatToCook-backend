@@ -1,7 +1,7 @@
 package com.recipe.what2cook.controllers;
 import com.recipe.what2cook.dto.RecipeDTO;
 import com.recipe.what2cook.exception.RecipeNotFoundException;
-import com.recipe.what2cook.service.RecipeService;
+import com.recipe.what2cook.service.recipe.RecipeServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -11,9 +11,9 @@ import java.util.List;
 
 @RestController
 public class RecipeController {
-    private final RecipeService recipeService;
+    private final RecipeServiceImpl recipeService;
     @Autowired
-    public RecipeController(RecipeService recipeService) {
+    public RecipeController(RecipeServiceImpl recipeService) {
         this.recipeService = recipeService;
     }
 

@@ -1,4 +1,4 @@
-package com.recipe.what2cook.service;
+package com.recipe.what2cook.service.user;
 
 import com.recipe.what2cook.dto.UserDTO;
 import com.recipe.what2cook.repository.UserRepository;
@@ -6,7 +6,6 @@ import com.recipe.what2cook.entity.UserEntity;
 import com.recipe.what2cook.exception.UserNotFoundException;
 import com.recipe.what2cook.mapper.UserEntityMapperImpl;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,7 +15,7 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
 
-private final UserEntityMapperImpl userEntityMapper;
+    private final UserEntityMapperImpl userEntityMapper;
 
 
     public UserServiceImpl(UserRepository userRepository, UserEntityMapperImpl userEntityMapper) {

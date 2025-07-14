@@ -1,4 +1,4 @@
-package com.recipe.what2cook.service;
+package com.recipe.what2cook.service.user;
 
 import com.recipe.what2cook.dto.UserDTO;
 import com.recipe.what2cook.exception.UserNotFoundException;

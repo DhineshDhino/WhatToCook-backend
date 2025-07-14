@@ -5,5 +5,7 @@ import lombok.Data;
 @Data
 public class IngredientDTO {
     private String name;
-    private String alias;
+    private String type;
+    private String tamilName;
+    private String tanglishName;
 }

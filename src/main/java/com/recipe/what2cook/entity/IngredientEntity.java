@@ -17,5 +17,7 @@ public class IngredientEntity {
     @Field("_id")
     private String id;
     private String name;
-    private String alias;
+    private String type;
+    private String tamilName;
+    private String tanglishName;
 }

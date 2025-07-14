@@ -11,4 +11,5 @@ public interface RecipeRepository extends MongoRepository<RecipeEntity, String> 
 
     RecipeEntity findByName(String name);
     List<RecipeEntity> findAll();
+    void deleteByName(String name);
 }
