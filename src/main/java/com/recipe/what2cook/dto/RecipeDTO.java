@@ -4,15 +4,15 @@ import com.recipe.what2cook.model.recipe.RecipeIngredient;
 import com.recipe.what2cook.model.recipe.Time;
 import lombok.*;
 
+import java.io.Serializable;
 import java.util.List;
-import java.util.Map;
 
 @Data
 @Getter
 @Setter
 @Builder
 @AllArgsConstructor
-public class RecipeDTO {
+public class RecipeDTO implements Serializable {
     private String name;//name of the recipe
     private String variant;//like dry or gravy or steamed or fried
     private String owner;//who's recipe
